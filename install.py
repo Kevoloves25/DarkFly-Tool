@@ -69,8 +69,8 @@ def _main_():
 
             # ==================================================================#
 
-            print '' + str(open('.module/DU.la').read())
-            print '' + str(open('.module/Du').read())
+            print ('' + str(open('.module/DU.la').read()))
+            print ('' + str(open('.module/Du').read()))
             os.system('python .JM.xn')
 
             # ==================================================================#
@@ -80,11 +80,11 @@ def _main_():
             sys.exit()
 
         if not os.path.isdir(ntfile[0]):
-            print '[x] Failed: no directory module'
+            print ('[x] Failed: no directory module')
             sys.exit()
 
         if not os.path.isdir(ntfile[1]):
-            print '[x] Failed: no directory lib'
+            print ('[x] Failed: no directory lib')
             sys.exit()
         else:
 
