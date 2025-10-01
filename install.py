@@ -35,8 +35,7 @@ def _main_():
             print ('[x] Failed: no directory lib')
             sys.exit()
         else:
-
-            print '' + instal.strip()
+            print ('' + instal.strip())
 
             # ==================================================================#
 
