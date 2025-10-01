@@ -88,7 +88,7 @@ def _main_():
             sys.exit()
         else:
 
-            print '' + instal.strip()
+            print ('' + instal.strip())
 
             # ==============================================================#
 
@@ -122,8 +122,8 @@ def _main_():
 
             # ==============================================================#
 
-            print '' + str(open('.module/DU.la').read())
-            print '' + str(open('.module/Du').read())
+            print ('' + str(open('.module/DU.la').read()))
+            print ('' + str(open('.module/Du').read()))
             os.system('python2 .JM.xn && cd')
 
 
