@@ -24,15 +24,15 @@ instal = '' + str(open('.module/IN.ms').read())
 def _main_():
     if os.path.isdir('' + ubuntu.strip()):
         if os.getuid() != 0:
-            print '[x] Failed: your must be root'
+            print ('[x] Failed: your must be root')
             sys.exit()
 
         if not os.path.isdir(ntfile[0]):
-            print '[x] Failed: no directory module'
+            print ('[x] Failed: no directory module')
             sys.exit()
 
         if not os.path.isdir(ntfile[1]):
-            print '[x] Failed: no directory lib'
+            print ('[x] Failed: no directory lib')
             sys.exit()
         else:
 
